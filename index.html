@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bookmark-keeper</title>
+    <link rel="stylesheet" href="./Scss/Sass/main.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+ <!-- <link rel=" icon" href="https://s2.googleusercontent.com/s2/favicon?domain=www.google.com" type="image/x-icon"> -->
+ 
+    <link rel="icon" type="image/svg" href="./Images/logo.svg" />
+  </head>
+  <body>
+    <main>
+      <section class="bookmark-button">
+        <section class="bookmark-group">
+          <button id="addbookmark">
+            <i class="fa-solid fa-book-bookmark"></i> Add Bookmark
+          </button>
+        </section>
+      </section>
+
+      <section class="bookmark-container" id="bookmark-container"></section> 
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <section class="modal-container" id="modal-container">
+        <section class="modal">
+          <section class="model-header">
+            <h3>Add Bookmark</h3>
+            <i class="fa-solid fa-xmark" id="modalClose"></i>
+          </section>
+
+          <section class="form-content">
+            <form id="form">
+              <section class="form-group">
+                <label for="bookmarkName" id="label">Webiste</label>
+                <input type="text" id="bookmarkname" />
+              </section>
+
+              <section class="form-group">
+                <label for="bookmarkUrl" id="label">Url</label>
+                <input type="text" id="bookmarkurl" />
+              </section>
+              <button id="bmbtn" type="submit">Save</button>
+            </form>
+          </section>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
